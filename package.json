@@ -1,0 +1,26 @@
+{
+ "name": "slack-weather",
+ "version": "1.0.0",
+ "description": "_A Slackbot that gets weather conditions",
+ "main": "index.js",
+ "dependencies": {
+   "body-parser": "^1.14.2",
+   "ejs": "2.3.3",
+   "express": "4.13.3",
+   "request": "^2.67.0"
+  },
+ "devDependencies": {},
+ "scripts": {
+   "test": "echo \"Error: no test specified\" && exit 1"
+ },
+ "repository": {
+   "type": "git",
+   "url": “git+https://github.com/Arulprasath36/weatherBot.git"
+ },
+ "author": "Arul",
+ "license": "MIT",
+ "bugs": {
+   "url": "https://github.com/ryadav88/slack-weather/issues"
+ },
+ "homepage": "https://github.com/ryadav88/slack-weather#readme"
+}
