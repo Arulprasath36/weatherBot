@@ -10,7 +10,7 @@ var bodyParser = require('body-parser');
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
-//use port is set in the environment variable, or 9001 if it isn’t set.
+//use port is set in the environment variable, or 9001 if it isnâ€™t set.
 app.set('port', (process.env.PORT || 9001));
 
 //for testing that the app is running
@@ -18,7 +18,7 @@ app.get('/', function(req, res){
   res.send('Running!!');
 });
 
-//app.post is triggered when a POST request is sent to the URL ‘/post’
+//app.post is triggered when a POST request is sent to the URL â€˜/postâ€™
 app.post('/post', function(req, res){
   //take a message from Slack slash command
   var query = req.body.text
@@ -26,7 +26,7 @@ app.post('/post', function(req, res){
   var parsed_url = url.format({
     pathname: 'http://api.wunderground.com/api/' + apikey + '/conditions/q/' + req.body.text + format,
   });
-
+//http://api.wunderground.com/api/c63437b4aacdc08d/conditions/q/66209.json
   console.log(parsed_url);
 
   request(parsed_url, function (error, response, body) {
