@@ -13,14 +13,7 @@
  "scripts": {
    "test": "echo \"Error: no test specified\" && exit 1"
  },
- "repository": {
-   "type": "git",
-   "url": “git+https://github.com/Arulprasath36/weatherBot.git"
- },
+ 
  "author": "Arul",
- "license": "MIT",
- "bugs": {
-   "url": "https://github.com/ryadav88/slack-weather/issues"
- },
- "homepage": "https://github.com/ryadav88/slack-weather#readme"
+ "license": "MIT"
 }
