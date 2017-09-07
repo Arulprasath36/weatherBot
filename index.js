@@ -50,6 +50,10 @@ app.post('/post', function(req, res){
       };
       res.send(body);
     }
+	else{
+	res.send('Invalid input');
+	}
+	
   });
 });
 
