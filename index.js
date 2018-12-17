@@ -24,7 +24,9 @@ app.post('/post', function(req, res){
   var query = req.body.text
 
   var parsed_url = url.format({
-    pathname: 'http://api.wunderground.com/api/' + apikey + '/conditions/q/CA/' + req.body.text + format,
+    //pathname: 'http://api.wunderground.com/api/' + apikey + '/conditions/q/CA/chennai'+ format,
+	  pathname: 'http://api.wunderground.com/api/c63437b4aacdc08d/conditions/q/CA/chennai'+ format,
+	  
   });
 //http://api.wunderground.com/api/c63437b4aacdc08d/conditions/q/66209.json
   console.log(parsed_url);
